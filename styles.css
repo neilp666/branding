@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 150px;
+  margin: 0;
 }
 
 h2 {
@@ -92,6 +93,10 @@ p {
 .left-col, .right-col {
   color: #fff;
   text-align: center;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-col {
@@ -100,6 +105,11 @@ p {
 
 .right-col {
   background-color: #75e3dd;
+}
+
+.top-container {
+  width: 500px;
+  margin: 0 auto;
 }
 
 .scroll {
