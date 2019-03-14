@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 .left-col {
   background-color: #003170;
 }
@@ -10,4 +19,18 @@
 
 img {
   max-width: 100%;
+}
+
+footer {
+  background-color: #f4979c;
+}
+
+.social-icon {
+  height: 60px;
+  margin: 10px 20px;
+ 
+}
+
+.social-icons-container {
+  text-align: center;
 }
