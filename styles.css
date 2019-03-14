@@ -9,6 +9,23 @@ body {
   margin: 0;
 }
 
+nav {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  right: 0;
+}
+
+.navigation {
+  text-align: center;
+}
+
+.navigation li  {
+  display: inline-block;
+  margin: 0 15px;
+  color: #20c4bb;
+}
+
 .left-col {
   background-color: #003170;
 }
